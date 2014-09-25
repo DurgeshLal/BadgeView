@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9707F970-01C7-409B-B86A-BA0F01F02322</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BadgeView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9BC14737-FD4D-4EAF-852D-517100F1483E</key>
+		<string>https://del.sapient.resultspace.com/scm/mobile_coe/trunk/Development/Code/ReusableComponents_2013/ComponentDemos</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BadgeView/BadgeView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9BC14737-FD4D-4EAF-852D-517100F1483E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>9BC14737-FD4D-4EAF-852D-517100F1483E</key>
+		<string>https://del.sapient.resultspace.com/scm/mobile_coe</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://del.sapient.resultspace.com/scm/mobile_coe/trunk/Development/Code/ReusableComponents_2013/ComponentDemos/BadgeView/BadgeView.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9BC14737-FD4D-4EAF-852D-517100F1483E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9BC14737-FD4D-4EAF-852D-517100F1483E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ComponentDemos</string>
+		</dict>
+	</array>
+</dict>
+</plist>

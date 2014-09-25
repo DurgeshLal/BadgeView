@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F45000F178E76EF0080C1F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F45000E178E76EF0080C1F8 /* UIKit.framework */; };
+		3F450011178E76EF0080C1F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F450010178E76EF0080C1F8 /* Foundation.framework */; };
+		3F450019178E76EF0080C1F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F450017178E76EF0080C1F8 /* InfoPlist.strings */; };
+		3F45001B178E76EF0080C1F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45001A178E76EF0080C1F8 /* main.m */; };
+		3F45001F178E76EF0080C1F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45001E178E76EF0080C1F8 /* AppDelegate.m */; };
+		3F450021178E76EF0080C1F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F450020178E76EF0080C1F8 /* Default.png */; };
+		3F450023178E76EF0080C1F8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F450022178E76EF0080C1F8 /* Default@2x.png */; };
+		3F450025178E76EF0080C1F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F450024178E76EF0080C1F8 /* Default-568h@2x.png */; };
+		3F450028178E76EF0080C1F8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F450026178E76EF0080C1F8 /* MainStoryboard.storyboard */; };
+		3F45002B178E76EF0080C1F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45002A178E76EF0080C1F8 /* ViewController.m */; };
+		3F450033178E77160080C1F8 /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F450032178E77160080C1F8 /* BadgeView.m */; };
+		3F6EF1A01793BEF1007EA4AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F450012178E76EF0080C1F8 /* CoreGraphics.framework */; };
+		3F6EF1A41793C5A1007EA4AF /* carticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6EF1A21793C5A1007EA4AF /* carticon.png */; };
+		3F6EF1A51793C5A1007EA4AF /* carticon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6EF1A31793C5A1007EA4AF /* carticon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F45000B178E76EF0080C1F8 /* BadgeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadgeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F45000E178E76EF0080C1F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F450010178E76EF0080C1F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F450012178E76EF0080C1F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F450016178E76EF0080C1F8 /* BadgeView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BadgeView-Info.plist"; sourceTree = "<group>"; };
+		3F450018178E76EF0080C1F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F45001A178E76EF0080C1F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F45001C178E76EF0080C1F8 /* BadgeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BadgeView-Prefix.pch"; sourceTree = "<group>"; };
+		3F45001D178E76EF0080C1F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F45001E178E76EF0080C1F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F450020178E76EF0080C1F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3F450022178E76EF0080C1F8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3F450024178E76EF0080C1F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F450027178E76EF0080C1F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3F450029178E76EF0080C1F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F45002A178E76EF0080C1F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F450031178E77160080C1F8 /* BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeView.h; sourceTree = "<group>"; };
+		3F450032178E77160080C1F8 /* BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeView.m; sourceTree = "<group>"; };
+		3F6EF1A21793C5A1007EA4AF /* carticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carticon.png; sourceTree = "<group>"; };
+		3F6EF1A31793C5A1007EA4AF /* carticon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carticon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F450008178E76EF0080C1F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6EF1A01793BEF1007EA4AF /* CoreGraphics.framework in Frameworks */,
+				3F45000F178E76EF0080C1F8 /* UIKit.framework in Frameworks */,
+				3F450011178E76EF0080C1F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F450002178E76EF0080C1F8 = {
+			isa = PBXGroup;
+			children = (
+				3F450014178E76EF0080C1F8 /* BadgeView */,
+				3F45000D178E76EF0080C1F8 /* Frameworks */,
+				3F45000C178E76EF0080C1F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F45000C178E76EF0080C1F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F45000B178E76EF0080C1F8 /* BadgeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F45000D178E76EF0080C1F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F45000E178E76EF0080C1F8 /* UIKit.framework */,
+				3F450010178E76EF0080C1F8 /* Foundation.framework */,
+				3F450012178E76EF0080C1F8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F450014178E76EF0080C1F8 /* BadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EF1A21793C5A1007EA4AF /* carticon.png */,
+				3F6EF1A31793C5A1007EA4AF /* carticon@2x.png */,
+				3F45001D178E76EF0080C1F8 /* AppDelegate.h */,
+				3F45001E178E76EF0080C1F8 /* AppDelegate.m */,
+				3F450026178E76EF0080C1F8 /* MainStoryboard.storyboard */,
+				3F450029178E76EF0080C1F8 /* ViewController.h */,
+				3F45002A178E76EF0080C1F8 /* ViewController.m */,
+				3F450015178E76EF0080C1F8 /* Supporting Files */,
+				3F450031178E77160080C1F8 /* BadgeView.h */,
+				3F450032178E77160080C1F8 /* BadgeView.m */,
+			);
+			path = BadgeView;
+			sourceTree = "<group>";
+		};
+		3F450015178E76EF0080C1F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F450016178E76EF0080C1F8 /* BadgeView-Info.plist */,
+				3F450017178E76EF0080C1F8 /* InfoPlist.strings */,
+				3F45001A178E76EF0080C1F8 /* main.m */,
+				3F45001C178E76EF0080C1F8 /* BadgeView-Prefix.pch */,
+				3F450020178E76EF0080C1F8 /* Default.png */,
+				3F450022178E76EF0080C1F8 /* Default@2x.png */,
+				3F450024178E76EF0080C1F8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F45000A178E76EF0080C1F8 /* BadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F45002E178E76EF0080C1F8 /* Build configuration list for PBXNativeTarget "BadgeView" */;
+			buildPhases = (
+				3F450007178E76EF0080C1F8 /* Sources */,
+				3F450008178E76EF0080C1F8 /* Frameworks */,
+				3F450009178E76EF0080C1F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BadgeView;
+			productName = BadgeView;
+			productReference = 3F45000B178E76EF0080C1F8 /* BadgeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F450003178E76EF0080C1F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Satisha Navada";
+			};
+			buildConfigurationList = 3F450006178E76EF0080C1F8 /* Build configuration list for PBXProject "BadgeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F450002178E76EF0080C1F8;
+			productRefGroup = 3F45000C178E76EF0080C1F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F45000A178E76EF0080C1F8 /* BadgeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F450009178E76EF0080C1F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F450019178E76EF0080C1F8 /* InfoPlist.strings in Resources */,
+				3F450021178E76EF0080C1F8 /* Default.png in Resources */,
+				3F450023178E76EF0080C1F8 /* Default@2x.png in Resources */,
+				3F450025178E76EF0080C1F8 /* Default-568h@2x.png in Resources */,
+				3F450028178E76EF0080C1F8 /* MainStoryboard.storyboard in Resources */,
+				3F6EF1A41793C5A1007EA4AF /* carticon.png in Resources */,
+				3F6EF1A51793C5A1007EA4AF /* carticon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F450007178E76EF0080C1F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F45001B178E76EF0080C1F8 /* main.m in Sources */,
+				3F45001F178E76EF0080C1F8 /* AppDelegate.m in Sources */,
+				3F45002B178E76EF0080C1F8 /* ViewController.m in Sources */,
+				3F450033178E77160080C1F8 /* BadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F450017178E76EF0080C1F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F450018178E76EF0080C1F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F450026178E76EF0080C1F8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F450027178E76EF0080C1F8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F45002C178E76EF0080C1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F45002D178E76EF0080C1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F45002F178E76EF0080C1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BadgeView/BadgeView-Prefix.pch";
+				INFOPLIST_FILE = "BadgeView/BadgeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F450030178E76EF0080C1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BadgeView/BadgeView-Prefix.pch";
+				INFOPLIST_FILE = "BadgeView/BadgeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F450006178E76EF0080C1F8 /* Build configuration list for PBXProject "BadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F45002C178E76EF0080C1F8 /* Debug */,
+				3F45002D178E76EF0080C1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F45002E178E76EF0080C1F8 /* Build configuration list for PBXNativeTarget "BadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F45002F178E76EF0080C1F8 /* Debug */,
+				3F450030178E76EF0080C1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F450003178E76EF0080C1F8 /* Project object */;
+}
